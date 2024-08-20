@@ -1,0 +1,203 @@
+.overpass-font {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+@media (min-width:0px) and (max-width: 399px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    header{
+        display: flex;
+        height: 70px;
+        width: 99.9%;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgray;
+    }
+    nav{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        gap: 50px;
+    }
+    .etapa-container{
+        display: flex;
+        height: 370px;
+        width: 320px;
+        border: 1px solid black;
+        border-radius: 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .preview-img{
+        height: 300px;
+        width: 300px;
+    }
+    .span-container{
+        height: 10px;
+    }
+}
+@media (min-width:400px) and (max-width:767px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    header{
+        display: flex;
+        height: 70px;
+        width: 99.9%;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgray;
+    }
+    nav{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        gap: 50px;
+    }
+    .etapa-container{
+        display: flex;
+        height: 370px;
+        width: 320px;
+        border: 1px solid black;
+        border-radius: 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .preview-img{
+        height: 300px;
+        width: 300px;
+    }
+    .span-container{
+        height: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:1199px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    header{
+        display: flex;
+        height: 70px;
+        width: 99.9%;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgray;
+    }
+    nav{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        gap: 50px;
+    }
+    .etapa-container{
+        display: flex;
+        height: 370px;
+        width: 320px;
+        border: 1px solid black;
+        border-radius: 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .preview-img{
+        height: 300px;
+        width: 300px;
+    }
+    .span-container{
+        height: 10px;
+    }
+}
+@media (min-width: 1200px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    header{
+        display: flex;
+        height: 70px;
+        width: 99.9%;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        border: 1px solid lightgray;
+    }
+    .logo-container{
+        margin-left: 100px;
+    }
+    nav{
+        display: flex;
+        font-size: 18px;
+        gap: 30px;
+        margin-right: 100px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        gap: 100px;
+    }
+    .etapa-container{
+        display: flex;
+        height: 370px;
+        width: 320px;
+        border: 1px solid black;
+        border-radius: 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .preview-img{
+        height: 300px;
+        width: 300px;
+    }
+    .span-container{
+        height: 10px;
+    }
+}
