@@ -3,47 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/icon.png">
     <link rel="stylesheet" href="styles.css">
-    <title>Home Visor Web | Solutiva Consultores</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Home | Solutiva Consultores</title>
 </head>
 <body class="overpass-font">
     <header>
         <div class="logo-container">
-            <img src="img/solutiva.png" alt="Solutiva Logo">
+            <a href="https://solutiva.com/" target="_blank">
+                <img src="img/solutiva_blanco.png" alt="Solutiva Logo" id="solutiva-logo" draggable="false">
+            </a>
         </div>
-        <nav>
-            <a href="/Mapa TEL QGIS/index.html">Modelo de Situación Actual</a>
-            <a href="/Etapa 2 Diagnostico/index.html">Diagnóstico Territorial</a>
-            <a href="/Etapa 3 Alternativas//index.html">Planes Preliminares</a>
+        <nav class="header-nav">
+            <a href="#front-section" class="header-anchor">INICIO</a>
+            <a href="#cards-section" class="header-anchor">PROYECTOS</a>
+            <a href="#devices-section" class="header-anchor">INFORMACIÓN</a>
         </nav>
     </header>
     <main>
-        <section>
-            <a href="/Mapa TEL QGIS/index.html" class="etapa-container">
-                <div class="preview-img-container">
-                    <img src="img/Talcahuano.png" alt="Talcahuano" class="preview-img">
+        <section id="front-section">
+            <h1 id="main-title">Explora nuestras propuestas a través de nuestros mapas interactivos</h1>
+            <span id="subtitle">Navega y visualiza mapas detallados en cualquier dispositivo, sin necesidad de software especializado.</span>
+            <a href="#cards-section" class="front-btn">Ver proyectos</a>
+        </section>
+        <section id="cards-section">
+            <div class="card-container" data-aos="fade-right" data-aos-duration="1000">
+                <div class="card-text-container">
+                    <div class="card-title-container">
+                        <h4 class="card-title">Estudio Teleférico Talcahuano</h4>
+                    </div>
+                    <div class="card-description-container">
+                        <p>
+                            El objetivo principal del estudio es analizar y desarrollar alternativas de proyectos
+                            para implementar un teleférico en los cerros de Talcahuano, determinando su
+                            viabilidad desde el punto de vista privado y social a nivel de prediseño. Se
+                            seleccionará una alternativa para desarrollar el proyecto a nivel de anteproyecto.</p>
+                    </div>
+                    <div>
+                        <a href="/Mapa TEL QGIS/index.html" class="btn" target="_blank">Abrir proyecto</a>
+                    </div>
                 </div>
-                <div class="span-container">
-                    <span>Modelo de Situación Actual</span>
+                <div class="card-image-container">
+                    <a href="/Mapa TEL QGIS/index.html" target="_blank">
+                        <img src="img/Talcahuano.png" alt="Talcahuano" class="card-image" draggable="false">
+                    </a>
                 </div>
-            </a>
-            <a href="/Etapa 2 Diagnostico/index.html" class="etapa-container">
-                <div class="preview-img-container">
-                    <img src="img/Coquimbo.png" alt="Coquimbo" class="preview-img">
+            </div>
+            <div class="card-container" data-aos="fade-right" data-aos-duration="1000">
+                <div class="card-text-container">
+                    <div class="card-title-container">
+                        <h4 class="card-title-two-lines">Plan Maestro Ciclovías Conurbación La Serena Coquimbo, Región de Coquimbo</h4>
+                    </div>
+                    <div class="card-description-container">
+                        <p>
+                            Proponer un plan maestro de red de ciclovías revisando las redes de ciclovías generadas anteriormente tanto por el
+                            plan maestro de La Serena o por las vialidad existentes, para luego generar las ciclovías en
+                            la ciudad de Coquimbo, que permitan así
+                            generar una red de ciclovías a nivel de la conurbación e identificar las medidas de gestión
+                            tendientes a habilitar esta nueva red de ciclovías considerado para ello la gestión del
+                            espacio urbano existente.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="/Etapa 2 Diagnostico/index.html" class="btn" target="_blank">Abrir proyecto</a>
+                    </div>
                 </div>
-                <div class="span-container">
-                    <span>Diagnóstico Territorial</span>
+                <div class="card-image-container">
+                    <a href="/Etapa 2 Diagnostico/index.html" target="_blank">
+                        <img src="img/Coquimbo.png" alt="Coquimbo" class="card-image" draggable="false">
+                    </a>
                 </div>
-            </a>
-            <a href="/Etapa 3 Alternativas//index.html" class="etapa-container">
-                <div class="preview-img-container">
-                    <img src="img/Alternativa.png" alt="Alternativa" class="preview-img">
+            </div>
+            <div class="card-container" data-aos="fade-right" data-aos-duration="1000">
+                <div class="card-text-container">
+                    <div class="card-title-container">
+                        <h4 class="card-title">Mejoramiento Accesibilidad Sur - Curicó</h4>
+                    </div>
+                    <div class="card-description-container">
+                        <p>
+                            Analizar distintas alternativas de proyectos, orientados a mejorar la accesibilidad 
+                            sur a la ciudad y en particular la accesibilidad desde y hacia el sector de camino 
+                            Los Niches para luego, desarrollar los análisis técnicos a nivel de anteproyecto.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="/Etapa 3 Alternativas/index.html" class="btn" target="_blank">Abrir proyecto</a>
+                    </div>
                 </div>
-                <div class="span-container">
-                    <span>Planes Preliminares</span>
+                <div class="card-image-container">
+                    <a href="/Etapa 3 Alternativas/index.html" target="_blank">
+                        <img src="img/Alternativa.png" alt="Curicó" class="card-image" draggable="false">
+                    </a>
                 </div>
-            </a>
+            </div>
+        </section>
+        <section id="devices-section">
+            <div class="device-container" data-aos="fade-right" data-aos-duration="800">
+                <div class="phone-image-container">
+                    <img src="img/phone_view.png" alt="Smartphone" class="device-image-smartphone" draggable="false">
+                </div>
+                <div class="devices-paragraph-container-smartphone">
+                    <h4 class="device-paragraph-title">Innovación</h4>
+                    <p>Nada de informes estáticos aburridos, con esta herramienta puedes visualizar la información de forma interactiva.</p>
+                    <p>No necesitas instalar ni ejecutar ningún software para acceder a nuestros visores web.
+                        Nos aseguramos de ofrecerles a nuestros clientes un servicio en el cuál puedan acceder
+                        desde su dispositivo favorito, ya sea; smartphone, tablet, laptop o desktop. 
+                    </p>
+                </div>
+            </div>
+            <div class="device-container" data-aos="fade-left" data-aos-duration="1000">
+                <div class="devices-paragraph-container-tablet">
+                    <h4 class="device-paragraph-title">Calidad</h4>
+                    <p>La información desplegada en nuestros visores fue desarrollada e implementada por ingenieros, arquitectos y desarrolladores de software,
+                        garantizando gran calidad y funcionamiento.
+                    </p>
+                </div>
+                <div class="phone-image-container">
+                    <img src="img/tablet_view.png" alt="Tablet" class="device-image-tablet" draggable="false">
+                </div>
+            </div>
+        </section>
+        <section class="get-started-section">
+            <div class="get-started-container">
+                <h1 id="get-started-title">¿Listo para comenzar?</h1>
+                <span id="get-started-subtitle">Abre uno de nuestros proyectos y explora nuestras propuestas</span>
+                <a href="#cards-section" class="front-btn">Ver Proyectos</a>
+            </div>
         </section>
     </main>
+    <footer>
+        <section class="footer-web-section">
+            <h2>SITIO WEB</h2>
+            <nav class="footer-web-nav">
+                <div class="nav-elements-container">
+                    <a href="https://solutiva.com" class="footer-anchor" target="_blank">INICIO</a>
+                    <img src="img/right-arrow.svg" alt=">" class="arrow">
+                </div>
+                <div class="nav-elements-container">
+                    <a href="https://solutiva.com/sobre-nosotros/" class="footer-anchor" target="_blank">SOBRE NOSOTROS</a>
+                    <img src="img/right-arrow.svg" alt=">" class="arrow">
+                </div>
+                <div class="nav-elements-container">
+                    <a href="https://solutiva.com/nuestros-proyectos/" class="footer-anchor" target="_blank">NUESTROS PROYECTOS</a>
+                    <img src="img/right-arrow.svg" alt=">" class="arrow">
+                </div>
+                <div class="nav-elements-container">
+                    <a href="https://solutiva.com/nuestros-servicios/" class="footer-anchor" target="_blank">NUESTROS SERVICIOS</a>
+                    <img src="img/right-arrow.svg" alt=">" class="arrow">
+                </div>
+                <div class="nav-elements-container">
+                    <a href="https://solutiva.com/noticias/" class="footer-anchor" target="_blank">NOTICIAS</a>
+                    <img src="img/right-arrow.svg" alt=">" class="arrow">
+                </div>
+                <div class="nav-elements-container">
+                    <a href="https://www.solutivasistemas.cl/" class="footer-anchor" target="_blank">SOLUTIVA SISTEMAS</a>
+                    <img src="img/right-arrow.svg" alt=">" class="arrow">
+                </div>
+                <div class="nav-elements-container">
+                    <a href="https://solutiva.com/contacto/" class="footer-anchor" target="_blank">CONTACTO</a>
+                    <img src="img/right-arrow.svg" alt=">" class="arrow">
+                </div>
+            </nav>
+        </section>
+        <section class="footer-middle-section">
+            <img src="img/solutiva_blanco.png" alt="SOLUTIVA" id="solutiva-white" draggable="false">
+            <div class="footer-paragraph">
+                <p>Especializados en Planificación Urbana, Diseño Urbano,</p>
+                <p>Planificación, Diseño y Evaluación de Sistemas de Transporte.</p>
+            </div>
+        </section>
+        <section class="footer-right-section">
+            <h2>CONTÁCTANOS</h2>
+            <div>
+                <div><img src="" alt=""></div>
+                <span>AV. ARTURO PRAT #390, CONCEPCIÓN, CHILE</span>
+            </div>
+            <div>
+                <a href="mailto:ventas@solutiva.com">
+                    <div><img src="" alt=""></div>
+                    <span>VENTAS@SOLUTIVA.COM</span>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div><img src="" alt=""></div>
+                    <span>+56 4 12193170</span>
+                </a>
+            </div>
+        </section>
+    </footer>
+    <section id="copyright-section">
+        <span>Copyright © 2024 Solutiva Consultores | Todos los derechos reservados</span>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
